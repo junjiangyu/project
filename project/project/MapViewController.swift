@@ -10,11 +10,16 @@ import UIKit
 import MapKit
 import CoreLocation
 
+
 class MapViewController: UIViewController,CLLocationManagerDelegate {
     
     @IBOutlet weak var map: MKMapView!
     let manager = CLLocationManager()
-    
+
+    @IBOutlet weak var latitude: UILabel!
+    @IBOutlet weak var longtitude: UILabel!
+
+    @IBOutlet weak var speed: UILabel!
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations[0]
         
@@ -28,7 +33,19 @@ class MapViewController: UIViewController,CLLocationManagerDelegate {
         self.map.showsUserLocation = true
         
         print(location.altitude)
+        
+        
         print(location.speed)
+        
+        let speeddata = Int(location.speed)
+        let latitudedata = Int(location.coordinate.latitude)
+        let longtitudedata = Int(location.coordinate.longitude)
+        
+
+     
+        speed.text = "Speed " + String(speeddata)
+        latitude.text = "Latitude" + String(latitudedata)
+        longtitude.text = "Longtitude" + String(longtitudedata)
     }
     
     

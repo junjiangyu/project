@@ -33,6 +33,9 @@ class timerViewController: UIViewController {
     }
     
     @IBAction func stop(_ sender: AnyObject) {
+        time = 0
+        label.text = ("0")
+        timer.invalidate()
     }
     
     
