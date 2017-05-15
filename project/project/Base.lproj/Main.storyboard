@@ -337,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q9V-1e-2lD" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="884" y="157.87106446776613"/>
+            <point key="canvasLocation" x="870" y="124"/>
         </scene>
         <!--Count down timer-->
         <scene sceneID="dPr-kI-G7d">
@@ -470,10 +470,10 @@
             </objects>
             <point key="canvasLocation" x="2062" y="-1369"/>
         </scene>
-        <!--View Controller-->
+        <!--Music Player View Controller-->
         <scene sceneID="dZi-Gd-Ugf">
             <objects>
-                <viewController id="m7A-yL-IIb" sceneMemberID="viewController">
+                <viewController id="m7A-yL-IIb" customClass="MusicPlayerViewController" customModule="project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6t5-b7-a0b"/>
                         <viewControllerLayoutGuide type="bottom" id="hxb-pq-K1z"/>
@@ -506,37 +506,101 @@
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="stopp:" destination="m7A-yL-IIb" eventType="touchUpInside" id="5Cn-Fv-lD9"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="pgw-3e-IBW"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cr3-QD-plV">
-                                <rect key="frame" x="0.0" y="125" width="375" height="255"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cr3-QD-plV">
+                                <rect key="frame" x="0.0" y="84" width="375" height="296"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="GmG-62-Wsx"/>
+                                    <constraint firstAttribute="height" constant="296" id="XDw-id-HGx"/>
+                                </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2LZ-v0-8ZX">
+                                <rect key="frame" x="160" y="497" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="CoS-We-haW"/>
+                                    <constraint firstAttribute="height" constant="70" id="bex-gp-j97"/>
+                                </constraints>
+                                <state key="normal" image="pause"/>
+                                <connections>
+                                    <action selector="pause:" destination="m7A-yL-IIb" eventType="touchUpInside" id="Z1i-fE-gey"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wtc-yi-QUr">
+                                <rect key="frame" x="253" y="497" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="8ai-i6-hdj"/>
+                                    <constraint firstAttribute="height" constant="70" id="DRx-Yw-4lk"/>
+                                </constraints>
+                                <state key="normal" image="Stop"/>
+                                <connections>
+                                    <action selector="stop:" destination="m7A-yL-IIb" eventType="touchUpInside" id="5Hb-1Q-agM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEL-kK-0LJ">
+                                <rect key="frame" x="66" y="497" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="MKk-gP-4uh"/>
+                                    <constraint firstAttribute="width" constant="70" id="YoY-lS-TIk"/>
+                                </constraints>
+                                <state key="normal" image="Play"/>
+                                <connections>
+                                    <action selector="play:" destination="m7A-yL-IIb" eventType="touchUpInside" id="uwZ-x6-WEk"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hgn-yD-b4g">
+                                <rect key="frame" x="13" y="388" width="348" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="CNg-15-sf7"/>
+                                    <constraint firstAttribute="width" constant="348" id="TWt-g2-qwH"/>
+                                </constraints>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="hgn-yD-b4g" firstAttribute="leading" secondItem="0Sb-Tr-3iy" secondAttribute="leadingMargin" constant="-10" id="8Mu-7q-kAB"/>
                             <constraint firstItem="KZa-2z-fbd" firstAttribute="trailing" secondItem="4Od-m1-Gk1" secondAttribute="trailing" id="9uD-j3-d9T"/>
+                            <constraint firstItem="hgn-yD-b4g" firstAttribute="top" secondItem="Cr3-QD-plV" secondAttribute="bottom" constant="8" symbolic="YES" id="BgV-ij-8Wu"/>
                             <constraint firstItem="A50-IF-z6r" firstAttribute="bottom" secondItem="hxb-pq-K1z" secondAttribute="top" id="GUF-Lf-wHW"/>
                             <constraint firstItem="hxb-pq-K1z" firstAttribute="top" secondItem="4Od-m1-Gk1" secondAttribute="bottom" id="GdU-gj-bbq"/>
                             <constraint firstItem="KZa-2z-fbd" firstAttribute="leading" secondItem="4Od-m1-Gk1" secondAttribute="leading" id="Jk0-R0-yLt"/>
                             <constraint firstItem="4Od-m1-Gk1" firstAttribute="top" secondItem="0Sb-Tr-3iy" secondAttribute="top" id="ZzL-qU-FZe"/>
+                            <constraint firstItem="hxb-pq-K1z" firstAttribute="top" secondItem="2LZ-v0-8ZX" secondAttribute="bottom" constant="100" id="ajI-7X-wRF"/>
+                            <constraint firstItem="2LZ-v0-8ZX" firstAttribute="leading" secondItem="vEL-kK-0LJ" secondAttribute="trailing" constant="24" id="cAh-kW-3Wz"/>
+                            <constraint firstAttribute="bottom" secondItem="hgn-yD-b4g" secondAttribute="bottom" constant="164" id="daq-kP-vkV"/>
                             <constraint firstItem="KZa-2z-fbd" firstAttribute="top" secondItem="0Sb-Tr-3iy" secondAttribute="topMargin" constant="11" id="eMo-LN-5Tj"/>
+                            <constraint firstItem="Cr3-QD-plV" firstAttribute="top" secondItem="6t5-b7-a0b" secondAttribute="bottom" constant="64" id="kIi-PR-vdW"/>
+                            <constraint firstItem="Cr3-QD-plV" firstAttribute="leading" secondItem="0Sb-Tr-3iy" secondAttribute="leading" id="lOV-GS-B5v"/>
+                            <constraint firstAttribute="trailing" secondItem="Cr3-QD-plV" secondAttribute="trailing" id="pZJ-vW-GqC"/>
+                            <constraint firstItem="Cr3-QD-plV" firstAttribute="leading" secondItem="KZa-2z-fbd" secondAttribute="leading" id="pa7-aI-uEh"/>
+                            <constraint firstItem="2LZ-v0-8ZX" firstAttribute="top" secondItem="Wtc-yi-QUr" secondAttribute="top" id="qil-AF-58E"/>
+                            <constraint firstItem="Wtc-yi-QUr" firstAttribute="leading" secondItem="2LZ-v0-8ZX" secondAttribute="trailing" constant="23" id="sdF-GW-Z73"/>
+                            <constraint firstItem="2LZ-v0-8ZX" firstAttribute="leading" secondItem="0Sb-Tr-3iy" secondAttribute="leading" constant="160" id="u5a-C1-GK4"/>
                             <constraint firstAttribute="trailing" secondItem="4Od-m1-Gk1" secondAttribute="trailing" id="u9c-UW-QHa"/>
                             <constraint firstItem="4Od-m1-Gk1" firstAttribute="leading" secondItem="0Sb-Tr-3iy" secondAttribute="leading" id="vMK-zI-dCX"/>
                             <constraint firstItem="KZa-2z-fbd" firstAttribute="trailing" secondItem="A50-IF-z6r" secondAttribute="trailing" id="wqP-so-Lhc"/>
+                            <constraint firstItem="2LZ-v0-8ZX" firstAttribute="top" secondItem="vEL-kK-0LJ" secondAttribute="top" id="zjY-sd-xNJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="images" destination="Cr3-QD-plV" id="GaL-ne-qB3"/>
+                        <outlet property="songs" destination="hgn-yD-b4g" id="qSh-tB-H9P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hcP-le-ifA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="118" y="828"/>
+            <point key="canvasLocation" x="117.59999999999999" y="837.93103448275872"/>
         </scene>
     </scenes>
     <resources>
         <image name="Big-Sky-Road-iPhone-Wallpaper-iphoneswallpapers_com-469x832" width="469" height="832"/>
+        <image name="Play" width="150" height="150"/>
+        <image name="Stop" width="256" height="256"/>
+        <image name="pause" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BDp-WS-5WQ"/>
+        <segue reference="pgw-3e-IBW"/>
     </inferredMetricsTieBreakers>
 </document>

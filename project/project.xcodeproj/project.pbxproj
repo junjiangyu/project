@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		6F177A771EC97AB500A74C33 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F177A761EC97AB500A74C33 /* MusicPlayerViewController.swift */; };
 		6F556FEB1EC731C4003E20D7 /* CounterdowntimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F556FEA1EC731C4003E20D7 /* CounterdowntimerViewController.swift */; };
+		6F7D1BBF1EC9B63800AC3EC4 /* love yourself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BBE1EC9B63800AC3EC4 /* love yourself.mp3 */; };
+		6F7D1BC11EC9B83400AC3EC4 /* With you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BC01EC9B83400AC3EC4 /* With you.mp3 */; };
+		6F7D1BC31EC9B87C00AC3EC4 /* Summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BC21EC9B87C00AC3EC4 /* Summer.mp3 */; };
+		6F7D1BC51EC9B88800AC3EC4 /* you come too.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BC41EC9B88800AC3EC4 /* you come too.mp3 */; };
+		6F7D1BC71EC9B89000AC3EC4 /* Before i sleep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BC61EC9B89000AC3EC4 /* Before i sleep.mp3 */; };
+		6F7D1BC91EC9C8A800AC3EC4 /* love yourself.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BC81EC9C8A800AC3EC4 /* love yourself.jpg */; };
+		6F7D1BCB1EC9CAE600AC3EC4 /* With you.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BCA1EC9CAE600AC3EC4 /* With you.jpg */; };
+		6F7D1BCD1EC9CB4400AC3EC4 /* summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BCC1EC9CB4400AC3EC4 /* summer.jpg */; };
+		6F7D1BCF1EC9CC1F00AC3EC4 /* you come too.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BCE1EC9CC1F00AC3EC4 /* you come too.jpg */; };
+		6F7D1BD11EC9CD2A00AC3EC4 /* Before i sleep.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BD01EC9CD2A00AC3EC4 /* Before i sleep.jpg */; };
 		6FC0FDC11EC6F8DD007ECA9B /* pricedown bl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0FDBF1EC6F0C6007ECA9B /* pricedown bl.ttf */; };
 		6FC0FDC41EC6FBFE007ECA9B /* Golden.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0FDC31EC6FB60007ECA9B /* Golden.ttf */; };
 		6FC0FDC61EC6FECB007ECA9B /* timerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0FDC51EC6FECB007ECA9B /* timerViewController.swift */; };
@@ -43,6 +53,16 @@
 /* Begin PBXFileReference section */
 		6F177A761EC97AB500A74C33 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicPlayerViewController.swift; path = ../MusicPlayerViewController.swift; sourceTree = "<group>"; };
 		6F556FEA1EC731C4003E20D7 /* CounterdowntimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterdowntimerViewController.swift; sourceTree = "<group>"; };
+		6F7D1BBE1EC9B63800AC3EC4 /* love yourself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "love yourself.mp3"; path = "project/love yourself.mp3"; sourceTree = "<group>"; };
+		6F7D1BC01EC9B83400AC3EC4 /* With you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "With you.mp3"; path = "project/With you.mp3"; sourceTree = "<group>"; };
+		6F7D1BC21EC9B87C00AC3EC4 /* Summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Summer.mp3; path = project/Summer.mp3; sourceTree = "<group>"; };
+		6F7D1BC41EC9B88800AC3EC4 /* you come too.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "you come too.mp3"; path = "project/you come too.mp3"; sourceTree = "<group>"; };
+		6F7D1BC61EC9B89000AC3EC4 /* Before i sleep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Before i sleep.mp3"; path = "project/Before i sleep.mp3"; sourceTree = "<group>"; };
+		6F7D1BC81EC9C8A800AC3EC4 /* love yourself.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "love yourself.jpg"; path = "project/love yourself.jpg"; sourceTree = "<group>"; };
+		6F7D1BCA1EC9CAE600AC3EC4 /* With you.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "With you.jpg"; path = "project/With you.jpg"; sourceTree = "<group>"; };
+		6F7D1BCC1EC9CB4400AC3EC4 /* summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = summer.jpg; path = project/summer.jpg; sourceTree = "<group>"; };
+		6F7D1BCE1EC9CC1F00AC3EC4 /* you come too.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "you come too.jpg"; path = "project/you come too.jpg"; sourceTree = "<group>"; };
+		6F7D1BD01EC9CD2A00AC3EC4 /* Before i sleep.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Before i sleep.jpg"; path = "project/Before i sleep.jpg"; sourceTree = "<group>"; };
 		6FC0FDBF1EC6F0C6007ECA9B /* pricedown bl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pricedown bl.ttf"; sourceTree = "<group>"; };
 		6FC0FDC01EC6F52F007ECA9B /* abuse.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = abuse.ttf; sourceTree = "<group>"; };
 		6FC0FDC31EC6FB60007ECA9B /* Golden.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Golden.ttf; sourceTree = "<group>"; };
@@ -90,6 +110,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F7D1BD31EC9CE7B00AC3EC4 /* Music and Image files */ = {
+			isa = PBXGroup;
+			children = (
+				6F7D1BBE1EC9B63800AC3EC4 /* love yourself.mp3 */,
+				6F7D1BC81EC9C8A800AC3EC4 /* love yourself.jpg */,
+				6F7D1BC01EC9B83400AC3EC4 /* With you.mp3 */,
+				6F7D1BCA1EC9CAE600AC3EC4 /* With you.jpg */,
+				6F7D1BC21EC9B87C00AC3EC4 /* Summer.mp3 */,
+				6F7D1BCC1EC9CB4400AC3EC4 /* summer.jpg */,
+				6F7D1BC41EC9B88800AC3EC4 /* you come too.mp3 */,
+				6F7D1BCE1EC9CC1F00AC3EC4 /* you come too.jpg */,
+				6F7D1BC61EC9B89000AC3EC4 /* Before i sleep.mp3 */,
+				6F7D1BD01EC9CD2A00AC3EC4 /* Before i sleep.jpg */,
+			);
+			name = "Music and Image files";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		6FC0FDC71EC70772007ECA9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +160,7 @@
 		6FF0DA5D1EB5BCC30071850A /* project */ = {
 			isa = PBXGroup;
 			children = (
+				6F7D1BD31EC9CE7B00AC3EC4 /* Music and Image files */,
 				6F177A761EC97AB500A74C33 /* MusicPlayerViewController.swift */,
 				6FF0DA5E1EB5BCC30071850A /* AppDelegate.swift */,
 				6FF0DA601EB5BCC30071850A /* ViewController.swift */,
@@ -225,6 +264,7 @@
 				TargetAttributes = {
 					6FF0DA5A1EB5BCC30071850A = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					6FF0DA6E1EB5BCC30071850A = {
@@ -264,11 +304,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F7D1BBF1EC9B63800AC3EC4 /* love yourself.mp3 in Resources */,
 				6FC0FDC41EC6FBFE007ECA9B /* Golden.ttf in Resources */,
 				6FC0FDC11EC6F8DD007ECA9B /* pricedown bl.ttf in Resources */,
+				6F7D1BC71EC9B89000AC3EC4 /* Before i sleep.mp3 in Resources */,
 				6FF0DA691EB5BCC30071850A /* LaunchScreen.storyboard in Resources */,
+				6F7D1BCD1EC9CB4400AC3EC4 /* summer.jpg in Resources */,
+				6F7D1BC91EC9C8A800AC3EC4 /* love yourself.jpg in Resources */,
 				6FF0DA661EB5BCC30071850A /* Assets.xcassets in Resources */,
+				6F7D1BC11EC9B83400AC3EC4 /* With you.mp3 in Resources */,
+				6F7D1BCB1EC9CAE600AC3EC4 /* With you.jpg in Resources */,
+				6F7D1BCF1EC9CC1F00AC3EC4 /* you come too.jpg in Resources */,
 				6FF0DA641EB5BCC30071850A /* Main.storyboard in Resources */,
+				6F7D1BC51EC9B88800AC3EC4 /* you come too.mp3 in Resources */,
+				6F7D1BD11EC9CD2A00AC3EC4 /* Before i sleep.jpg in Resources */,
+				6F7D1BC31EC9B87C00AC3EC4 /* Summer.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,10 +500,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Deakin.project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -462,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Deakin.project;
