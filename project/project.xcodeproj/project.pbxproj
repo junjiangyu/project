@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F177A771EC97AB500A74C33 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F177A761EC97AB500A74C33 /* MusicPlayerViewController.swift */; };
 		6F556FEB1EC731C4003E20D7 /* CounterdowntimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F556FEA1EC731C4003E20D7 /* CounterdowntimerViewController.swift */; };
 		6FC0FDC11EC6F8DD007ECA9B /* pricedown bl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0FDBF1EC6F0C6007ECA9B /* pricedown bl.ttf */; };
 		6FC0FDC41EC6FBFE007ECA9B /* Golden.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0FDC31EC6FB60007ECA9B /* Golden.ttf */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F177A761EC97AB500A74C33 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicPlayerViewController.swift; path = ../MusicPlayerViewController.swift; sourceTree = "<group>"; };
 		6F556FEA1EC731C4003E20D7 /* CounterdowntimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterdowntimerViewController.swift; sourceTree = "<group>"; };
 		6FC0FDBF1EC6F0C6007ECA9B /* pricedown bl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pricedown bl.ttf"; sourceTree = "<group>"; };
 		6FC0FDC01EC6F52F007ECA9B /* abuse.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = abuse.ttf; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		6FF0DA5D1EB5BCC30071850A /* project */ = {
 			isa = PBXGroup;
 			children = (
+				6F177A761EC97AB500A74C33 /* MusicPlayerViewController.swift */,
 				6FF0DA5E1EB5BCC30071850A /* AppDelegate.swift */,
 				6FF0DA601EB5BCC30071850A /* ViewController.swift */,
 				6FF0DA621EB5BCC30071850A /* Main.storyboard */,
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FC0FDC61EC6FECB007ECA9B /* timerViewController.swift in Sources */,
+				6F177A771EC97AB500A74C33 /* MusicPlayerViewController.swift in Sources */,
 				6FF0DA611EB5BCC30071850A /* ViewController.swift in Sources */,
 				6FF0DA5F1EB5BCC30071850A /* AppDelegate.swift in Sources */,
 				6F556FEB1EC731C4003E20D7 /* CounterdowntimerViewController.swift in Sources */,
