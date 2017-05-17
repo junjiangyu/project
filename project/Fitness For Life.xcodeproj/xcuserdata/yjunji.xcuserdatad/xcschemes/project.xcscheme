@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6FF0DA5A1EB5BCC30071850A"
-               BuildableName = "project.app"
-               BlueprintName = "project"
-               ReferencedContainer = "container:project.xcodeproj">
+               BuildableName = "Fitness For Life.app"
+               BlueprintName = "Fitness For Life"
+               ReferencedContainer = "container:Fitness For Life.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6FF0DA6E1EB5BCC30071850A"
-               BuildableName = "projectTests.xctest"
-               BlueprintName = "projectTests"
-               ReferencedContainer = "container:project.xcodeproj">
+               BuildableName = "Fitness For LifeTests.xctest"
+               BlueprintName = "Fitness For LifeTests"
+               ReferencedContainer = "container:Fitness For Life.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6FF0DA791EB5BCC30071850A"
-               BuildableName = "projectUITests.xctest"
-               BlueprintName = "projectUITests"
-               ReferencedContainer = "container:project.xcodeproj">
+               BuildableName = "Fitness For LifeUITests.xctest"
+               BlueprintName = "Fitness For LifeUITests"
+               ReferencedContainer = "container:Fitness For Life.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6FF0DA5A1EB5BCC30071850A"
-            BuildableName = "project.app"
-            BlueprintName = "project"
-            ReferencedContainer = "container:project.xcodeproj">
+            BuildableName = "Fitness For Life.app"
+            BlueprintName = "Fitness For Life"
+            ReferencedContainer = "container:Fitness For Life.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6FF0DA5A1EB5BCC30071850A"
-            BuildableName = "project.app"
-            BlueprintName = "project"
-            ReferencedContainer = "container:project.xcodeproj">
+            BuildableName = "Fitness For Life.app"
+            BlueprintName = "Fitness For Life"
+            ReferencedContainer = "container:Fitness For Life.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6FF0DA5A1EB5BCC30071850A"
-            BuildableName = "project.app"
-            BlueprintName = "project"
-            ReferencedContainer = "container:project.xcodeproj">
+            BuildableName = "Fitness For Life.app"
+            BlueprintName = "Fitness For Life"
+            ReferencedContainer = "container:Fitness For Life.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

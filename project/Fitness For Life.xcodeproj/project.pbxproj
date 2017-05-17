@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		6F177A771EC97AB500A74C33 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F177A761EC97AB500A74C33 /* MusicPlayerViewController.swift */; };
 		6F556FEB1EC731C4003E20D7 /* CounterdowntimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F556FEA1EC731C4003E20D7 /* CounterdowntimerViewController.swift */; };
+		6F5ACCD61ECC008700BC4100 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ACCD41ECC008700BC4100 /* Model.xcdatamodeld */; };
+		6F5ACCDA1ECC16E400BC4100 /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ACCD91ECC16E400BC4100 /* AddDataViewController.swift */; };
+		6F5ACCDC1ECC16FF00BC4100 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ACCDB1ECC16FF00BC4100 /* TableViewController.swift */; };
 		6F7D1BBF1EC9B63800AC3EC4 /* love yourself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BBE1EC9B63800AC3EC4 /* love yourself.mp3 */; };
 		6F7D1BC11EC9B83400AC3EC4 /* With you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BC01EC9B83400AC3EC4 /* With you.mp3 */; };
 		6F7D1BC31EC9B87C00AC3EC4 /* Summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F7D1BC21EC9B87C00AC3EC4 /* Summer.mp3 */; };
@@ -53,6 +56,9 @@
 /* Begin PBXFileReference section */
 		6F177A761EC97AB500A74C33 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicPlayerViewController.swift; path = ../MusicPlayerViewController.swift; sourceTree = "<group>"; };
 		6F556FEA1EC731C4003E20D7 /* CounterdowntimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterdowntimerViewController.swift; sourceTree = "<group>"; };
+		6F5ACCD51ECC008700BC4100 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6F5ACCD91ECC16E400BC4100 /* AddDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
+		6F5ACCDB1ECC16FF00BC4100 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		6F7D1BBE1EC9B63800AC3EC4 /* love yourself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "love yourself.mp3"; path = "project/love yourself.mp3"; sourceTree = "<group>"; };
 		6F7D1BC01EC9B83400AC3EC4 /* With you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "With you.mp3"; path = "project/With you.mp3"; sourceTree = "<group>"; };
 		6F7D1BC21EC9B87C00AC3EC4 /* Summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Summer.mp3; path = project/Summer.mp3; sourceTree = "<group>"; };
@@ -69,17 +75,17 @@
 		6FC0FDC51EC6FECB007ECA9B /* timerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerViewController.swift; sourceTree = "<group>"; };
 		6FC0FDC81EC70772007ECA9B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6FC0FDCA1EC7082C007ECA9B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		6FF0DA5B1EB5BCC30071850A /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF0DA5B1EB5BCC30071850A /* Fitness For Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness For Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF0DA5E1EB5BCC30071850A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FF0DA601EB5BCC30071850A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FF0DA631EB5BCC30071850A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FF0DA651EB5BCC30071850A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FF0DA681EB5BCC30071850A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FF0DA6A1EB5BCC30071850A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FF0DA6F1EB5BCC30071850A /* projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF0DA6F1EB5BCC30071850A /* Fitness For LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness For LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF0DA731EB5BCC30071850A /* projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectTests.swift; sourceTree = "<group>"; };
 		6FF0DA751EB5BCC30071850A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FF0DA7A1EB5BCC30071850A /* projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF0DA7A1EB5BCC30071850A /* Fitness For LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness For LifeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF0DA7E1EB5BCC30071850A /* projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectUITests.swift; sourceTree = "<group>"; };
 		6FF0DA801EB5BCC30071850A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,9 +156,9 @@
 		6FF0DA5C1EB5BCC30071850A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FF0DA5B1EB5BCC30071850A /* project.app */,
-				6FF0DA6F1EB5BCC30071850A /* projectTests.xctest */,
-				6FF0DA7A1EB5BCC30071850A /* projectUITests.xctest */,
+				6FF0DA5B1EB5BCC30071850A /* Fitness For Life.app */,
+				6FF0DA6F1EB5BCC30071850A /* Fitness For LifeTests.xctest */,
+				6FF0DA7A1EB5BCC30071850A /* Fitness For LifeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,8 +169,11 @@
 				6F7D1BD31EC9CE7B00AC3EC4 /* Music and Image files */,
 				6F177A761EC97AB500A74C33 /* MusicPlayerViewController.swift */,
 				6FF0DA5E1EB5BCC30071850A /* AppDelegate.swift */,
+				6F5ACCD41ECC008700BC4100 /* Model.xcdatamodeld */,
 				6FF0DA601EB5BCC30071850A /* ViewController.swift */,
 				6FF0DA621EB5BCC30071850A /* Main.storyboard */,
+				6F5ACCD91ECC16E400BC4100 /* AddDataViewController.swift */,
+				6F5ACCDB1ECC16FF00BC4100 /* TableViewController.swift */,
 				6F556FEA1EC731C4003E20D7 /* CounterdowntimerViewController.swift */,
 				6FC0FDCA1EC7082C007ECA9B /* MapViewController.swift */,
 				6FC0FDC51EC6FECB007ECA9B /* timerViewController.swift */,
@@ -199,9 +208,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6FF0DA5A1EB5BCC30071850A /* project */ = {
+		6FF0DA5A1EB5BCC30071850A /* Fitness For Life */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FF0DA831EB5BCC40071850A /* Build configuration list for PBXNativeTarget "project" */;
+			buildConfigurationList = 6FF0DA831EB5BCC40071850A /* Build configuration list for PBXNativeTarget "Fitness For Life" */;
 			buildPhases = (
 				6FF0DA571EB5BCC30071850A /* Sources */,
 				6FF0DA581EB5BCC30071850A /* Frameworks */,
@@ -211,14 +220,14 @@
 			);
 			dependencies = (
 			);
-			name = project;
+			name = "Fitness For Life";
 			productName = project;
-			productReference = 6FF0DA5B1EB5BCC30071850A /* project.app */;
+			productReference = 6FF0DA5B1EB5BCC30071850A /* Fitness For Life.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6FF0DA6E1EB5BCC30071850A /* projectTests */ = {
+		6FF0DA6E1EB5BCC30071850A /* Fitness For LifeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FF0DA861EB5BCC40071850A /* Build configuration list for PBXNativeTarget "projectTests" */;
+			buildConfigurationList = 6FF0DA861EB5BCC40071850A /* Build configuration list for PBXNativeTarget "Fitness For LifeTests" */;
 			buildPhases = (
 				6FF0DA6B1EB5BCC30071850A /* Sources */,
 				6FF0DA6C1EB5BCC30071850A /* Frameworks */,
@@ -229,14 +238,14 @@
 			dependencies = (
 				6FF0DA711EB5BCC30071850A /* PBXTargetDependency */,
 			);
-			name = projectTests;
+			name = "Fitness For LifeTests";
 			productName = projectTests;
-			productReference = 6FF0DA6F1EB5BCC30071850A /* projectTests.xctest */;
+			productReference = 6FF0DA6F1EB5BCC30071850A /* Fitness For LifeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6FF0DA791EB5BCC30071850A /* projectUITests */ = {
+		6FF0DA791EB5BCC30071850A /* Fitness For LifeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FF0DA891EB5BCC40071850A /* Build configuration list for PBXNativeTarget "projectUITests" */;
+			buildConfigurationList = 6FF0DA891EB5BCC40071850A /* Build configuration list for PBXNativeTarget "Fitness For LifeUITests" */;
 			buildPhases = (
 				6FF0DA761EB5BCC30071850A /* Sources */,
 				6FF0DA771EB5BCC30071850A /* Frameworks */,
@@ -247,9 +256,9 @@
 			dependencies = (
 				6FF0DA7C1EB5BCC30071850A /* PBXTargetDependency */,
 			);
-			name = projectUITests;
+			name = "Fitness For LifeUITests";
 			productName = projectUITests;
-			productReference = 6FF0DA7A1EB5BCC30071850A /* projectUITests.xctest */;
+			productReference = 6FF0DA7A1EB5BCC30071850A /* Fitness For LifeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -279,7 +288,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6FF0DA561EB5BCC30071850A /* Build configuration list for PBXProject "project" */;
+			buildConfigurationList = 6FF0DA561EB5BCC30071850A /* Build configuration list for PBXProject "Fitness For Life" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -292,9 +301,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6FF0DA5A1EB5BCC30071850A /* project */,
-				6FF0DA6E1EB5BCC30071850A /* projectTests */,
-				6FF0DA791EB5BCC30071850A /* projectUITests */,
+				6FF0DA5A1EB5BCC30071850A /* Fitness For Life */,
+				6FF0DA6E1EB5BCC30071850A /* Fitness For LifeTests */,
+				6FF0DA791EB5BCC30071850A /* Fitness For LifeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,11 +352,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5ACCDA1ECC16E400BC4100 /* AddDataViewController.swift in Sources */,
 				6FC0FDC61EC6FECB007ECA9B /* timerViewController.swift in Sources */,
 				6F177A771EC97AB500A74C33 /* MusicPlayerViewController.swift in Sources */,
 				6FF0DA611EB5BCC30071850A /* ViewController.swift in Sources */,
+				6F5ACCD61ECC008700BC4100 /* Model.xcdatamodeld in Sources */,
 				6FF0DA5F1EB5BCC30071850A /* AppDelegate.swift in Sources */,
 				6F556FEB1EC731C4003E20D7 /* CounterdowntimerViewController.swift in Sources */,
+				6F5ACCDC1ECC16FF00BC4100 /* TableViewController.swift in Sources */,
 				6FC0FDCB1EC7082C007ECA9B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,12 +385,12 @@
 /* Begin PBXTargetDependency section */
 		6FF0DA711EB5BCC30071850A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FF0DA5A1EB5BCC30071850A /* project */;
+			target = 6FF0DA5A1EB5BCC30071850A /* Fitness For Life */;
 			targetProxy = 6FF0DA701EB5BCC30071850A /* PBXContainerItemProxy */;
 		};
 		6FF0DA7C1EB5BCC30071850A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FF0DA5A1EB5BCC30071850A /* project */;
+			target = 6FF0DA5A1EB5BCC30071850A /* Fitness For Life */;
 			targetProxy = 6FF0DA7B1EB5BCC30071850A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -533,7 +545,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Deakin.projectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project.app/project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness For Life.app/Fitness For Life";
 			};
 			name = Debug;
 		};
@@ -547,7 +559,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Deakin.projectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project.app/project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness For Life.app/Fitness For Life";
 			};
 			name = Release;
 		};
@@ -580,7 +592,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6FF0DA561EB5BCC30071850A /* Build configuration list for PBXProject "project" */ = {
+		6FF0DA561EB5BCC30071850A /* Build configuration list for PBXProject "Fitness For Life" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF0DA811EB5BCC40071850A /* Debug */,
@@ -589,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FF0DA831EB5BCC40071850A /* Build configuration list for PBXNativeTarget "project" */ = {
+		6FF0DA831EB5BCC40071850A /* Build configuration list for PBXNativeTarget "Fitness For Life" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF0DA841EB5BCC40071850A /* Debug */,
@@ -598,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FF0DA861EB5BCC40071850A /* Build configuration list for PBXNativeTarget "projectTests" */ = {
+		6FF0DA861EB5BCC40071850A /* Build configuration list for PBXNativeTarget "Fitness For LifeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF0DA871EB5BCC40071850A /* Debug */,
@@ -607,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FF0DA891EB5BCC40071850A /* Build configuration list for PBXNativeTarget "projectUITests" */ = {
+		6FF0DA891EB5BCC40071850A /* Build configuration list for PBXNativeTarget "Fitness For LifeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF0DA8A1EB5BCC40071850A /* Debug */,
@@ -617,6 +629,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F5ACCD41ECC008700BC4100 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F5ACCD51ECC008700BC4100 /* Model.xcdatamodel */,
+			);
+			currentVersion = 6F5ACCD51ECC008700BC4100 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6FF0DA531EB5BCC30071850A /* Project object */;
 }
