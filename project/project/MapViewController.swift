@@ -49,7 +49,7 @@ class MapViewController: UIViewController,CLLocationManagerDelegate, MKMapViewDe
         annotations.title = "Deakin"
         annotations.subtitle = "I'm Here"
         map.addAnnotation(annotations)
-    
+
         
         let annotationone = MKPointAnnotation()
         annotationone.coordinate = gymonelocationone
@@ -73,26 +73,7 @@ class MapViewController: UIViewController,CLLocationManagerDelegate, MKMapViewDe
     
     }
 
-    
-    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        let identifier = "Capital"
-        if annotation is MapViewController {
-            if let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) {
-                annotationView.annotation = annotation
-                return annotationView
-            } else {
-                let annotationView = MKPinAnnotationView(annotation:annotation, reuseIdentifier:identifier)
-                annotationView.isEnabled = true
-                annotationView.canShowCallout = true
-                let btn = UIButton(type: .detailDisclosure)
-                annotationView.rightCalloutAccessoryView = btn
-                return annotationView
-            }
-        }
-        
-        return nil
-    }
-
+ 
     
 
     
