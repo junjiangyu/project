@@ -34,7 +34,6 @@ class AddDataViewController: UIViewController {
         task.questiondata = question.text!
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
-        navigationController!.popViewController(animated: true)
         
         
     }

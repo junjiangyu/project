@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -33,16 +33,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Big-Sky-Road-iPhone-Wallpaper-iphoneswallpapers_com-469x832" translatesAutoresizingMaskIntoConstraints="NO" id="OEd-EY-qXU">
-                                <rect key="frame" x="0.0" y="-214" width="375" height="832"/>
+                                <rect key="frame" x="0.0" y="-165" width="375" height="832"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fitness for LIFE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kog-fE-Gbh">
-                                <rect key="frame" x="0.0" y="28" width="375" height="31"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <fontDescription key="fontDescription" name="PricedownBl-Regular" family="Pricedown" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPE-l1-QPz">
-                                <rect key="frame" x="73" y="130" width="228" height="55"/>
+                                <rect key="frame" x="73" y="179" width="228" height="55"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="jwg-Vn-CPu"/>
@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIY-uk-prk">
-                                <rect key="frame" x="73" y="216" width="228" height="55"/>
+                                <rect key="frame" x="73" y="265" width="228" height="55"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="6KN-rF-mme"/>
@@ -70,7 +70,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijD-13-5hA">
-                                <rect key="frame" x="73" y="300" width="228" height="55"/>
+                                <rect key="frame" x="73" y="349" width="228" height="55"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="a4R-TQ-ORk"/>
@@ -80,11 +80,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4gr-BL-wyv" kind="show" id="uJo-XJ-Bum"/>
+                                    <segue destination="2rt-1f-836" kind="show" id="TkI-xN-sWZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUY-21-WXe">
-                                <rect key="frame" x="73" y="386" width="228" height="55"/>
+                                <rect key="frame" x="73" y="435" width="228" height="55"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Xv7-Ox-SDc"/>
@@ -246,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vu9-sb-EIJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1766" y="-348"/>
+            <point key="canvasLocation" x="1585" y="-666"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="1rQ-DC-VLG">
@@ -293,27 +293,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="FRA-BH-pRk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Latitude: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0M-5w-SId">
-                                <rect key="frame" x="96" y="561" width="200" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Longtitude: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3AM-EM-DKV">
-                                <rect key="frame" x="96" y="590" width="200" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Speed: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYo-Q5-Lol">
-                                <rect key="frame" x="96" y="526" width="200" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -332,10 +311,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="latitude" destination="U0M-5w-SId" id="ZLg-qg-sAx"/>
-                        <outlet property="longtitude" destination="3AM-EM-DKV" id="riw-Wp-z4c"/>
                         <outlet property="map" destination="eM8-y4-Fcq" id="Lo3-71-wHw"/>
-                        <outlet property="speed" destination="IYo-Q5-Lol" id="4hB-LG-dat"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q9V-1e-2lD" sceneMemberID="firstResponder"/>
@@ -452,7 +428,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZxW-TW-o99" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2558" y="-349"/>
+            <point key="canvasLocation" x="2377" y="-667"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rzp-Re-pc1">
@@ -608,8 +584,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vo-Uk-I8N">
+                                <rect key="frame" x="335" y="635" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="00V-dk-9aS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVz-eX-H4b">
+                                <rect key="frame" x="337" y="20" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <segue destination="xaw-ZU-fFK" kind="show" id="sRg-p1-D5U"/>
+                                </connections>
+                            </button>
                             <tableView clipsSubviews="YES" contentMode="top" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="200" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="lji-G1-sV4">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <sections/>
                             </tableView>
@@ -623,11 +615,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zv0-w9-dli">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="Tbk-6y-WQL">
-                            <connections>
-                                <segue destination="xaw-ZU-fFK" kind="show" id="jFm-zs-BJj"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Tbk-6y-WQL"/>
                     </navigationItem>
                     <connections>
                         <outlet property="tableview" destination="lji-G1-sV4" id="ABn-2P-IBL"/>
@@ -635,7 +623,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="niq-K5-1ys" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3128.8000000000002" y="809.14542728635683"/>
+            <point key="canvasLocation" x="2766" y="379"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bGL-bx-LC2">
+            <objects>
+                <viewController id="2rt-1f-836" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nIc-We-neO"/>
+                        <viewControllerLayoutGuide type="bottom" id="edm-EC-Z9L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HFg-hk-sl4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Big-Sky-Road-iPhone-Wallpaper-iphoneswallpapers_com-469x832" translatesAutoresizingMaskIntoConstraints="NO" id="d4d-AC-i84">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJh-Jw-pdl">
+                                <rect key="frame" x="101" y="91" width="173" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Coach"/>
+                                <connections>
+                                    <segue destination="qBc-jC-jmt" kind="show" id="lCQ-RK-vTe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ju3-Be-1Sv">
+                                <rect key="frame" x="101" y="279" width="173" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Member"/>
+                                <connections>
+                                    <segue destination="xaw-ZU-fFK" kind="show" id="5vR-Iy-MoB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d4d-AC-i84" firstAttribute="top" secondItem="HFg-hk-sl4" secondAttribute="top" id="WUo-dG-7D9"/>
+                            <constraint firstItem="d4d-AC-i84" firstAttribute="leading" secondItem="HFg-hk-sl4" secondAttribute="leading" id="ZlM-jF-byW"/>
+                            <constraint firstAttribute="trailing" secondItem="d4d-AC-i84" secondAttribute="trailing" id="pUS-RO-iQB"/>
+                            <constraint firstItem="edm-EC-Z9L" firstAttribute="top" secondItem="d4d-AC-i84" secondAttribute="bottom" id="wDo-yj-6cG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4fH-Wa-ppP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1694" y="1061"/>
         </scene>
         <!--Add Data View Controller-->
         <scene sceneID="Baz-bI-zVm">
@@ -712,9 +745,10 @@
                                 <rect key="frame" x="277" y="561" width="98" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Add"/>
                                 <connections>
                                     <action selector="addData:" destination="xaw-ZU-fFK" eventType="touchUpInside" id="zIC-VA-c4C"/>
+                                    <segue destination="qBc-jC-jmt" kind="showDetail" id="3nB-u2-z47"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -735,25 +769,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nrk-bQ-drc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4192.8000000000002" y="785.75712143928047"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="fNj-Bq-EFT">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hpg-dM-XC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4gr-BL-wyv" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="kgN-C0-AVc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="qBc-jC-jmt" kind="relationship" relationship="rootViewController" id="1Q4-OO-blf"/>
-                    </connections>
-                </navigationController>
-            </objects>
-            <point key="canvasLocation" x="2209" y="809"/>
+            <point key="canvasLocation" x="2766" y="1173"/>
         </scene>
     </scenes>
     <resources>
@@ -763,6 +779,8 @@
         <image name="pause" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BDp-WS-5WQ"/>
+        <segue reference="sRg-p1-D5U"/>
+        <segue reference="lCQ-RK-vTe"/>
+        <segue reference="FRA-BH-pRk"/>
     </inferredMetricsTieBreakers>
 </document>
