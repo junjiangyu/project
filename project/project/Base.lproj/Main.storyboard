@@ -342,28 +342,25 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="FRA-BH-pRk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32R-s9-2dk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zf4-nL-Oov">
                                 <rect key="frame" x="325" y="129" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="fDn-8s-w9F"/>
-                                    <constraint firstAttribute="width" constant="50" id="if3-YO-cdd"/>
+                                    <constraint firstAttribute="height" constant="50" id="1fk-21-Ory"/>
+                                    <constraint firstAttribute="width" constant="50" id="K9K-Qb-IEk"/>
                                 </constraints>
                                 <state key="normal" image="Moreinf"/>
                                 <connections>
-                                    <segue destination="q1y-Ti-Smq" kind="show" id="XYj-Lq-PeJ"/>
+                                    <segue destination="q1y-Ti-Smq" kind="show" id="mdZ-I4-Mjk"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="7Do-2Z-GpV" firstAttribute="top" secondItem="32R-s9-2dk" secondAttribute="bottom" constant="433" id="0Ux-JY-wYd"/>
-                            <constraint firstAttribute="trailing" secondItem="32R-s9-2dk" secondAttribute="trailing" id="2Gi-yM-CfJ"/>
                             <constraint firstItem="eM8-y4-Fcq" firstAttribute="top" secondItem="u7m-cp-HBp" secondAttribute="bottom" constant="38" id="4G8-Oh-qcf"/>
                             <constraint firstItem="u7m-cp-HBp" firstAttribute="trailing" secondItem="eM8-y4-Fcq" secondAttribute="trailing" id="6Gw-mT-vMj"/>
                             <constraint firstItem="u7m-cp-HBp" firstAttribute="leading" secondItem="eM8-y4-Fcq" secondAttribute="leading" id="8MQ-uJ-D8w"/>
                             <constraint firstItem="MXu-cI-45D" firstAttribute="top" secondItem="Nsl-Nn-23j" secondAttribute="top" id="DWf-Mo-WzR"/>
-                            <constraint firstItem="32R-s9-2dk" firstAttribute="top" secondItem="u7m-cp-HBp" secondAttribute="bottom" constant="38" id="aOa-Oe-kLF"/>
-                            <constraint firstItem="32R-s9-2dk" firstAttribute="leading" secondItem="Nsl-Nn-23j" secondAttribute="leading" constant="325" id="blf-cu-dSB"/>
+                            <constraint firstItem="Zf4-nL-Oov" firstAttribute="top" secondItem="eM8-y4-Fcq" secondAttribute="top" id="aJj-1s-QQ4"/>
                             <constraint firstAttribute="trailing" secondItem="eM8-y4-Fcq" secondAttribute="trailing" id="k6y-p9-s26"/>
                             <constraint firstItem="MXu-cI-45D" firstAttribute="leading" secondItem="Nsl-Nn-23j" secondAttribute="leading" id="o1s-6k-1kL"/>
                             <constraint firstItem="V8R-Bi-r25" firstAttribute="top" secondItem="7Do-2Z-GpV" secondAttribute="bottom" id="p8c-4P-jar"/>
@@ -371,6 +368,7 @@
                             <constraint firstAttribute="trailing" secondItem="7Do-2Z-GpV" secondAttribute="trailing" id="qoo-4J-EvW"/>
                             <constraint firstItem="eM8-y4-Fcq" firstAttribute="leading" secondItem="Nsl-Nn-23j" secondAttribute="leading" id="u2B-Pm-KYa"/>
                             <constraint firstAttribute="trailing" secondItem="MXu-cI-45D" secondAttribute="trailing" id="uib-1G-oil"/>
+                            <constraint firstItem="Zf4-nL-Oov" firstAttribute="trailing" secondItem="u7m-cp-HBp" secondAttribute="trailing" id="wec-fO-mpg"/>
                             <constraint firstItem="V8R-Bi-r25" firstAttribute="top" secondItem="MXu-cI-45D" secondAttribute="bottom" id="yHe-RM-vbn"/>
                         </constraints>
                     </view>
