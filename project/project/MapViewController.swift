@@ -27,7 +27,7 @@ class MapViewController: UIViewController,CLLocationManagerDelegate, MKMapViewDe
     
         self.map.delegate = self
         
-        let span:MKCoordinateSpan = MKCoordinateSpanMake(0.03, 0.03)
+        let span:MKCoordinateSpan = MKCoordinateSpanMake(0.05, 0.05)
         let mylocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(-37.847228, 145.114945)
         let region:MKCoordinateRegion = MKCoordinateRegionMake(mylocation, span)
         map.setRegion(region,animated: true)
@@ -39,6 +39,10 @@ class MapViewController: UIViewController,CLLocationManagerDelegate, MKMapViewDe
        
         let gymonelocationthree:CLLocationCoordinate2D = CLLocationCoordinate2DMake(-37.849624, 145.099915)
         
+         let gymonelocationfour:CLLocationCoordinate2D = CLLocationCoordinate2DMake(-37.825714, 145.117707)
+        
+          let gymonelocationfive:CLLocationCoordinate2D = CLLocationCoordinate2DMake(-37.835865, 145.110195)
+      
         
         let annotations = MKPointAnnotation()
         annotations.coordinate = mylocation
@@ -64,6 +68,18 @@ class MapViewController: UIViewController,CLLocationManagerDelegate, MKMapViewDe
         annotationthree.title = "Anytime Fitness Burwood"
         annotationthree.subtitle = "85 Burwood Hwy, Burwood VIC 3125"
         map.addAnnotation(annotationthree)
+        
+        let annotationfour = MKPointAnnotation()
+        annotationfour.coordinate = gymonelocationfour
+        annotationfour.title = "Aqualink Box Hill"
+        annotationfour.subtitle = "31 Surrey Dr, Box Hill VIC 3128"
+        map.addAnnotation(annotationfour)
+        
+        let annotationfive = MKPointAnnotation()
+        annotationfive.coordinate = gymonelocationfive
+        annotationfive.title = "Curves Surrey Hills"
+        annotationfive.subtitle = "1109 Riversdale Rd, Surrey Hills VIC 3127"
+        map.addAnnotation(annotationfive)
         
      
     
