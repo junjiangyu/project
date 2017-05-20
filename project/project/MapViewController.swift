@@ -38,10 +38,6 @@ class MapViewController: UIViewController,CLLocationManagerDelegate, MKMapViewDe
        let gymonelocationtwo:CLLocationCoordinate2D = CLLocationCoordinate2DMake(-37.854229, 145.108743)
        
         let gymonelocationthree:CLLocationCoordinate2D = CLLocationCoordinate2DMake(-37.849624, 145.099915)
-
- 
-    
-        
         
         
         let annotations = MKPointAnnotation()
