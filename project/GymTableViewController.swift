@@ -8,6 +8,8 @@
 
 import UIKit
 
+//set the gym information table view controller
+
 class GymTableViewController: UITableViewController {
 
     override func viewDidLoad() {
@@ -17,10 +19,10 @@ class GymTableViewController: UITableViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
-    // MARK: - Table view data source
+    
 
     override func numberOfSections(in tableView: UITableView) -> Int {
        return 5
@@ -30,6 +32,7 @@ class GymTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 5
     }
+    //set the link button to link to website
 
     @IBAction func Gymone(_ sender: Any) {
         UIApplication.shared.open(NSURL(string:"http://www.deakinburwood.ymca.org.au/") as! URL, options: [:], completionHandler: nil)
@@ -50,7 +53,7 @@ class GymTableViewController: UITableViewController {
     }
     
     @IBAction func gymfive(_ sender: Any) {
-             UIApplication.shared.open(NSURL(string:"http://curves.com.au") as! URL, options: [:], completionHandler: nil)
+             UIApplication.shared.open(NSURL(string:"http://curves.com.au") as! URL, options: [:],  completionHandler: nil)
     }
     
 

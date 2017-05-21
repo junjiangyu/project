@@ -9,7 +9,7 @@
 import UIKit
 
 class AddDataViewController: UIViewController {
-
+//define the variable inside
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var address: UITextField!
     @IBOutlet weak var phone: UITextField!
@@ -23,6 +23,8 @@ class AddDataViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    //core data function which get data to the context
 
     @IBAction func addData(_ sender: AnyObject) {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext

@@ -24,7 +24,7 @@ class MapViewController: UIViewController,CLLocationManagerDelegate, MKMapViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
+    //define annotation and location
         self.map.delegate = self
         
         let span:MKCoordinateSpan = MKCoordinateSpanMake(0.05, 0.05)

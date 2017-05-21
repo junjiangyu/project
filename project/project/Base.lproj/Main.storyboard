@@ -60,7 +60,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fitness for LIFE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kog-fE-Gbh">
-                                <rect key="frame" x="53.5" y="28.5" width="269.5" height="49.5"/>
+                                <rect key="frame" x="53" y="28" width="270" height="50"/>
                                 <fontDescription key="fontDescription" name="PricedownBl-Regular" family="Pricedown" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -833,7 +833,7 @@
                     </tableView>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="1585" y="96"/>
+            <point key="canvasLocation" x="1452" y="96"/>
         </scene>
         <!--Count down timer-->
         <scene sceneID="dPr-kI-G7d">
@@ -964,7 +964,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wla-yW-6P1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2062" y="-1369"/>
+            <point key="canvasLocation" x="1966" y="-1375"/>
         </scene>
         <!--Music Player View Controller-->
         <scene sceneID="dZi-Gd-Ugf">
@@ -1087,7 +1087,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hcP-le-ifA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="108" y="869"/>
+            <point key="canvasLocation" x="545" y="831"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="e3v-Wk-syt">
@@ -1143,7 +1143,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="niq-K5-1ys" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1058" y="1307"/>
+            <point key="canvasLocation" x="-1050" y="1284"/>
         </scene>
         <!--Add Data View Controller-->
         <scene sceneID="Baz-bI-zVm">
@@ -1264,8 +1264,8 @@
         <image name="pause" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FRA-BH-pRk"/>
+        <segue reference="pgw-3e-IBW"/>
         <segue reference="HTo-hy-3ZZ"/>
-        <segue reference="cza-7A-1QG"/>
+        <segue reference="sRg-p1-D5U"/>
     </inferredMetricsTieBreakers>
 </document>
